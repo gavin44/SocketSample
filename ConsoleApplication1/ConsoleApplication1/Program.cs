@@ -1,15 +1,32 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Net;
+using System.Net.Sockets;
 
-namespace ConsoleApplication1
+
+namespace SocketSample
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(
+            string[] args)
         {
+        string _name = (args.Length < 1) ? Dns.GetHostName() : args[0];
+
+        try
+        {
+            IPAddress[] _ipAddresses = Dns.GetHostEntry(_name).AddressList;
+
+            foreach (IPAddress _ipAddresss in _ipAddresses)
+            {
+                Console.WriteLine("{0}/{1}", _name, _ipAddresss);
+            }
+        }
+        catch(Exception e)
+        {
+            Console.WriteLine(e.Message);
         }
     }
 }
+        }
+
+

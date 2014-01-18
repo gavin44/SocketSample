@@ -1,0 +1,6 @@
+C:\SocketsSample\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\SocketsSample\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\SocketsSample\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\SocketsSample\ConsoleApplication1\ConsoleApplication1\obj\Debug\SocketSample.csprojResolveAssemblyReference.cache
+C:\SocketsSample\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\SocketsSample\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
