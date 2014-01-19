@@ -1,0 +1,5 @@
+C:\SocketsSample\Sockets\Client\bin\Debug\Client.exe.config
+C:\SocketsSample\Sockets\Client\bin\Debug\Client.exe
+C:\SocketsSample\Sockets\Client\bin\Debug\Client.pdb
+C:\SocketsSample\Sockets\Client\obj\Debug\Client.exe
+C:\SocketsSample\Sockets\Client\obj\Debug\Client.pdb
